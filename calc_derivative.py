@@ -29,4 +29,4 @@ y = sin(x)
 plot(x,y)
 show()
 
-# To BK Godwal to chew upon.
+# To BK Godwal to chew upon heartily.
