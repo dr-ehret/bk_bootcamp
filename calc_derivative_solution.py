@@ -19,7 +19,7 @@ from numpy import linspace, pi, sin, cos, cumsum
 from matplotlib.pyplot import plot, show, subplot, legend, title
 
 # calculate the sin() function on evenly spaced data.
-x = linspace(0,2*pi,101)
+x = linspace(0,2*pi,151)
 y = sin(x)
 
 # calculate the derivative dy/dx numerically.
@@ -33,7 +33,8 @@ dy_dx = dy/dx
 
 # Assuming central differences, these derivative values
 # centered in-between our original sample points.
-centers_x = (x[1:]+x[:-1])/2.0
+
+centers_x = (x[1:]+x[:-1])/2.0 # ----  >>> definition of the limit. ***
 
 # Plot our derivative calculation.  It should match up
 # with the cos function since the derivative of sin is
